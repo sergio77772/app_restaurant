@@ -4,6 +4,7 @@ import { useAuth } from '../../context/AuthContext'
 const NAV = [
   { to: 'orders',   label: 'Pedidos',    emoji: '📋' },
   { to: 'products', label: 'Productos',  emoji: '🧾' },
+  { to: 'categories', label: 'Categorías', emoji: '📁' },
   { to: 'sales',    label: 'Ventas',     emoji: '💰' },
   { to: 'tables',   label: 'Mesas / QR', emoji: '🪑' },
 ]

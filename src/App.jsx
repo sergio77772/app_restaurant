@@ -7,6 +7,7 @@ import LoginPage      from './pages/LoginPage'
 import AdminLayout    from './pages/admin/AdminLayout'
 import OrdersPage     from './pages/admin/OrdersPage'
 import ProductsPage   from './pages/admin/ProductsPage'
+import CategoriesPage from './pages/admin/CategoriesPage'
 import SalesPage      from './pages/admin/SalesPage'
 import TablesPage     from './pages/admin/TablesPage'
 import MenuPage       from './pages/menu/MenuPage'
@@ -35,6 +36,7 @@ function AppRoutes() {
         <Route index            element={<Navigate to="orders" replace />} />
         <Route path="orders"   element={<OrdersPage />} />
         <Route path="products" element={<ProductsPage />} />
+        <Route path="categories" element={<CategoriesPage />} />
         <Route path="sales"    element={<SalesPage />} />
         <Route path="tables"   element={<TablesPage />} />
       </Route>
